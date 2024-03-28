@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="icon" href="https://variety.com/wp-content/uploads/2020/05/netflix-logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <!-- Navigation bar -->
+        <nav>
+            <div class="logo">
+                <img src="netflix_logo.png" alt="Netflix Logo"><h1 class="vi">Netflix</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">TV Shows</a></li>
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">My List</a></li>
+            </ul>
+        </nav>
+        <!-- Hero section -->
+        <div class="hero">
+            <h1>Welcome to Netflix</h1>
+            <p>Watch unlimited TV shows and movies for one low monthly price.</p>
+            <button>Get Started</button>
+        </div>
+    </header>
+
+    <!-- Main content section -->
+    <section class="main-content">
+        <h2>Popular on Netflix</h2>
+        <!-- Content grid for movies/TV shows -->
+            <!-- Example content item -->
+            <div class="content-item">
+                <img src="example_image.jpeg" alt="Example Image"; height="740px" >
+                <img src="example_image1.jpeg" alt="Example Image1" height="740px">
+                <img src="example_image2.jpeg" alt="Example Image2"; height="740px">
+                <h3 class="say">Top Trendings</h3>
+            <!-- Repeat content items as needed -->
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <p>&copy; Netflix Clone</p>
+    </footer>
+    
+</body>
+</html>
+
+css:
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+   
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links li {
+   padding-right: 10px;
+    display: inline;
+    margin-right: 20px;
+    
+}
+
+.hero {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+button {
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    box-shadow: 10px 10px 4px rgb(184, 183, 183);
+    transition: all 1s;
+}
+button:hover{
+    cursor: pointer;
+    transform: translateY(-10px);
+    box-shadow: 0 0.5px 5px 10px gray;
+}
+
+.main-content {
+    padding: 20px;
+    background-color: gainsboro;
+}
+
+.content-item img {
+    display: inline-block;
+    width: 500px;
+    border-radius: 5px;
+    margin-right: 45px;
+ 
+}
+
+footer {
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+nav div img{
+    width: 100px;
+    border-radius: 50%;
+}
+.say{
+    text-align: center;
+}
+.vi{
+    margin-left: 15px;
+
+}
